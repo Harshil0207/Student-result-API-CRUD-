@@ -4,9 +4,6 @@
 // save - f_name,l_name,gender,contact,standard,html,css,react,node,javascript,total,percentage,grade
 
 
-
-
-
 const mysql = require("mysql2");
 
 var con = mysql.createConnection({
@@ -69,18 +66,6 @@ exports.getstudentresultbyid = (req, res) => {
 //         console.log('Table created')
 //     }
 // })
-
-// var sql = "INSERT INTO tbl_studentresult (F_name, L_name,Gender,contact,standard,html,css,js,react,node) VALUES ('flying','jatt','M',65698654,9,5,4,8,1,8)";
-// con.query(sql,function(err,result){
-//     if(err){
-//         console.log(err);
-//     }else{
-//         console.log('Record inserted')
-//     }
-// })
-
-
-
 
 exports.savestudents = (req, res) => {
     const { f_name, l_name, gender, contact, standard, html, css, react, node, js } = req.body;
