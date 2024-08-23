@@ -58,7 +58,7 @@ exports.getstudentresultbyid = (req, res) => {
 
 
 
-// var sql = "CREATE TABLE tbl_studentresult (Stud_id int not null AUTO_INCREMENT,F_name varchar(255),L_name varchar(255),Gender varchar(25),Contact int,Standard int,HTML INT,CSS INT,JS INT,REACT INT,NODE INT,TOTAL INT ,percentage int,grade varchar(10),primary key(Stud_id));"
+// var sql = "CREATE TABLE tbl_studentresult (Stud_id int not null AUTO_INCREMENT,F_name varchar(255),L_name varchar(255),Gender varchar(25),Contact varchar(12),Standard int,HTML INT,CSS INT,JS INT,REACT INT,NODE INT,TOTAL INT ,percentage int,grade varchar(10),primary key(Stud_id));"
 // con.query(sql,function(err,result){
 //     if(err){
 //         console.log(err);
